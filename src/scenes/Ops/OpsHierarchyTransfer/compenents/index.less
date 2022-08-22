@@ -1,0 +1,101 @@
+@import '~antd/dist/antd.css';
+
+.ant-table td {
+    background: transparent;
+}
+
+.ant-transfer {
+    padding: 10px;
+}
+
+.ant-transfer-list-header {
+    background-color: transparent;
+}
+
+.ant-transfer-list {
+    height: 350px;
+    width: 400px;
+    border: 1px solid rgb(235, 235, 235); 
+}
+
+.list-sort-wrapper {
+    position: relative;
+    background: #e6e6e6;
+    overflow: hidden;
+    height: 650px;
+}
+
+.list-sort{
+    margin: 40px auto;
+    max-width: 100%;
+    width: 100%;
+    cursor: url('http://gtms02.alicdn.com/tps/i2/T1_PMSFLBaXXcu5FDa-20-20.png') 10 10, pointer !important;
+    position: relative;
+    height: 250px;
+}
+
+.list-sort>div {
+    overflow: hidden;
+}
+
+.list-sort-list {
+    background: #fff;
+    border-radius: 6px;
+    margin: 5px auto;
+    padding: 10px;
+    height: 50px;
+    transition: box-shadow .5s, transform .5s;
+    width: 600px;
+}
+
+.list-sort-list.list-drag-selected {
+    box-shadow: 0 8px 20px #ffffff;
+    transform: scale(1.1) !important;
+}
+
+.list-sort-icon {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    vertical-align: top;
+}
+
+.list-sort-settings {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+    line-height: 20px;
+    vertical-align: top;
+}
+
+
+.list-sort-text {
+    width: 60%;
+    display: inline-block;
+}
+
+.list-sort-text h1 {
+    font-size: 18px;
+}
+
+.list-sort-text p {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 320px) {
+    .list-sort-text h1 {
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
+
+.ant-select-selector {
+    margin-left: 10px;
+}
+
+.ant-select-selection-search-input {
+    width: 200px;
+}

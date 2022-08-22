@@ -1,0 +1,12 @@
+version: "3.8"
+services: 
+    react-iknorm:
+        stdin_open: true
+        tty: true
+        build: .
+        ports: 
+            - "3000:3000"
+        volumes: 
+            - ./src:/app/src
+        environment: 
+            - REACT_APP_REMOTE_SERVICE_BASE_URL=http://localhost:21021
